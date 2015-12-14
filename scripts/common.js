@@ -3,7 +3,7 @@
  *     Author: Bobby Lin
  */
 
-function executeSearch() {
+function initSearch() {
     var keywords = getKeywordsValue();
     var website = getWebsiteValue();
     console.log(website + " " + keywords);
